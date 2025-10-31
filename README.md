@@ -76,12 +76,7 @@
   />
 
   <!-- 🔹 GitHub Streak Stats -->
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=With-ALIF&theme=tokyonight" 
-    alt="ALIF's GitHub Streak" 
-    height="165" 
-    style="margin: 10px;"
-  />
+  
 
 </div>
 

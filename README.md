@@ -1,9 +1,10 @@
 <!-- ================= PROFILE IMAGE ================= -->
+<h1 align="center">Abdullah Al Khalid Alif</h1>
 <p align="center">
   <img 
     src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/photo.jpg"
     alt="Md. Abdullah Al Khalid Alif"
-    style="width:100%; max-width:220px; height:auto; border-radius:50%;"
+    style="width:100%; max-width:220px; height:300px; border-radius:50%;"
   />
 </p>
 

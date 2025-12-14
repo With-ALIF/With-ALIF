@@ -1,102 +1,121 @@
-<h1 align="center">Hi, I'm Abdullah Al Khalid Alif</h1>
-
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00C2FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+in+Progress;Learning+JavaScript%2C+C%2C+and+Python;Creative+Web+Designer+%26+Problem+Solver" alt="Typing SVG" />
-</h3>
-
-
-
-
-### 👨‍💻 About Me
-- 🌱 I’m currently learning **JavaScript, C and Python Languages** and building **Full-Stack Projects**  
-- 🎯 My goal is to become a **Full-Stack Developer or Software Engineer**  
-- 🧠 I love working on **creative web tools** and learning new technologies  
-- 🌐 Visit my website: [alif-protfolio.netlify.app](https://alif-protfolio.netlify.app/)  
-- 📫 Reach me at: **alifbrur16@gmail.com**
-
-
-### 🧰 Languages and Tools
-<p align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://skillicons.dev/icons?i=html" width="45" height="45" alt="HTML"/>
-    <span style="margin-top: 5px; font-size: 14px;">HTML</span>
-  </span>
-  
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://skillicons.dev/icons?i=css" width="45" height="45" alt="CSS"/>
-    <span style="margin-top: 5px; font-size: 14px;">CSS</span>
-  </span>
-
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://skillicons.dev/icons?i=js" width="45" height="45" alt="JavaScript"/>
-    <span style="margin-top: 5px; font-size: 14px;">JavaScript</span>
-  </span>
-
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://skillicons.dev/icons?i=python" width="45" height="45" alt="Python"/>
-    <span style="margin-top: 5px; font-size: 14px;">Python</span>
-  </span>
-
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://skillicons.dev/icons?i=c" width="45" height="45" alt="C"/>
-    <span style="margin-top: 5px; font-size: 14px;">C</span>
-  </span>
-
-  <span style="display: inline-flex; flex-direction: column; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="45" height="45" alt="JSON"/>
-    <span style="margin-top: 5px; font-size: 14px;">JSON</span>
-  </span>
-</p>
-
-
-### 🚀 Projects
-#### 📰 [News Photocard Generator](https://with-alif.github.io/Photo_Card_Generator/)
-> A **web-based tool** that allows users to easily create stylish **news photocards**.
-
-#### 💾 [Mini SQL Engine in C](https://github.com/With-ALIF/c_sql_query)
-> A simplified SQL-like query parser and executor written in C.
-
-#### 📶 [Bandwidth Calculator](https://bandwidth-calculator.netlify.app/)
-> A web application to calculate and plan daily internet bandwidth usage.
-
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-  <!-- 🔹 Overall GitHub Stats -->
+<!-- ================= PROFILE IMAGE ================= -->
+<p align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=With-ALIF&show_icons=true&theme=tokyonight&custom_title=ALIF's%20GitHub%20Stats&hide=prs,issues" 
-    alt="ALIF's GitHub Stats" 
-    height="165" 
-    style="margin: 10px;"
+    src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/photo.jpg"
+    alt="Md. Abdullah Al Khalid Alif"
+    style="width:100%; max-width:220px; height:auto; border-radius:50%;"
   />
+</p>
 
-  <!-- 🔹 GitHub Streak Stats -->
-  
+<!-- ================= TYPING TITLE ================= -->
+<h1 align="center">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BCF7&center=true&vCenter=true&width=420&lines=Hi+%F0%9F%91%8B+I'm+Abdullah+Alif;Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Mini+Web+Project+Builder"
+    alt="Typing Animation"
+  />
+</h1>
 
-</div>
+---
 
-### 🌐 Connect with Me
-<p align="left">
+## 👨‍💻 About Me
+- 🎓 **Student | Self-Taught Developer**
+- 💻 Aspiring **Software Engineer & Full Stack Developer**
+- 🧠 Passionate about **building mini web projects**
+- 🌱 Continuously learning modern web technologies
+- 🎯 Goal: Build real-world applications & contribute to **open source**
+
+---
+
+## 🛠️ Technical Skills
+<table align="center">
+  <tr>
+    <th>🌐 Frontend</th>
+    <th>💻 Programming Languages</th>
+    <th>⚙️ Tools & Platforms</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=html" /><br>HTML<br><br>
+      <img src="https://skillicons.dev/icons?i=css" /><br>CSS<br><br>
+      <img src="https://skillicons.dev/icons?i=javascript" /><br>JavaScript<br><br>
+      <img src="https://skillicons.dev/icons?i=typescript" /><br>TypeScript
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=javascript" /><br>JavaScript<br><br>
+      <img src="https://skillicons.dev/icons?i=python" /><br>Python<br><br>
+      <img src="https://skillicons.dev/icons?i=c" /><br>C
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=vscode" /><br>VS Code<br><br>
+      <img src="https://skillicons.dev/icons?i=github" /><br>GitHub<br><br>
+      <img src="https://skillicons.dev/icons?i=netlify" /><br>Netlify
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 What I’m Working On
+- 🔹 Mini web applications for learning & practice  
+- 🔹 Improving problem-solving & coding skills  
+- 🔹 Exploring full-stack development concepts  
+
+---
+### 📰 News Photo Card Generator
+
+[![News Photo Card Generator](https://github-readme-stats.vercel.app/api/pin/?username=With-ALIF&repo=Photo_Card_Generator&theme=radical)](https://github.com/With-ALIF/Photo_Card_Generator)
+
+🔗 <a href="https://with-alif.github.io/Photo_Card_Generator/" target="_blank"><b>Live Demo</b></a>  |  💻 <a href="https://github.com/With-ALIF/Photo_Card_Generator" target="_blank"><b>Server Repo</b></a>
+
+
+- **Features:** Header image upload, headline & subheadline customization, “Details in Comments” tag  
+- **Tech Stack:** HTML, CSS, JavaScript  
+- **Key Highlights:** Real-time preview, responsive design, lightweight frontend tool  
+
+---
+
+### 🎓 Admission Hub (Admission Tools Hub)
+
+[![Admission Hub](https://github-readme-stats.vercel.app/api/pin/?username=With-ALIF&repo=Admission-Journey&theme=radical)](https://github.com/With-ALIF/Admission-Journey)
+
+🔗 <a href="https://admission-study.netlify.app/" target="_blank"><b>Live Demo</b></a>  |  💻 <a href="https://github.com/With-ALIF/Admission-Journey" target="_blank"><b>Server Repo</b></a>
+
+
+- **Features:** Centralized admission tools, university eligibility checker  
+- **Tech Stack:** HTML, CSS3, JavaScript  
+- **Key Highlights:** GPA calculator, Dhaka University subject verification, student-friendly UI  
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=With-ALIF&show_icons=true&theme=tokyonight&hide=issues,prs)![GitHub Streak](https://streak-stats.demolab.com?user=With-ALIF&theme=tokyonight)![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=With-ALIF&layout=compact&theme=tokyonight)
+
+
+---
+
+## 🌐 Connect With Me
+<p align="center">
   <a href="https://www.linkedin.com/in/with-alif/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
   <a href="https://t.me/ALIF1230" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
+  <a href="mailto:alifbrur16@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
   <a href="https://www.facebook.com/withALIF" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
   <a href="https://github.com/With-ALIF" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
+
+---
 
 <p align="center">
-  <i>“Code. Learn. Improve. Repeat.”</i> 
+  <i>“Learn. Build. Improve. Repeat.”</i>
 </p>

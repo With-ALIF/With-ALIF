@@ -1,14 +1,5 @@
-<!-- ================= PROFILE IMAGE ================= -->
 <h1 align="center">Abdullah Al Khalid Alif</h1>
-<p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/photo.jpg"
-    alt="Md. Abdullah Al Khalid Alif"
-    style="width:100%; max-width:220px; height:300px; border-radius:50%;"
-  />
-</p>
-
-<!-- ================= TYPING TITLE ================= -->
+ 
 <h1 align="center">
   <img 
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BCF7&center=true&vCenter=true&width=420&lines=Hi+%F0%9F%91%8B+I'm+Abdullah+Alif;Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Mini+Web+Project+Builder"

@@ -1,90 +1,70 @@
-<!-- ================= PROFILE IMAGE ================= -->
-<h1 align="center">Abdullah Al Khalid Alif</h1>
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/photo.jpg"
-    alt="Md. Abdullah Al Khalid Alif"
-    style="width:100%; max-width:220px; height:300px; border-radius:50%;"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=7F00FF&text=ABDULLAH%20AL%20KHALID&fontColor=ffffff&fontSize=44" width="100%">
+
+  <img src="https://github.com/alif982/picture/blob/main/alifcover.jpg?raw=true" width="95%">
 </p>
 
-<!-- ================= TYPING TITLE ================= -->
-<h1 align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BCF7&center=true&vCenter=true&width=420&lines=Hi+%F0%9F%91%8B+I'm+Abdullah+Alif;Software+Engineer;Full+Stack+Developer;Open+Source+Enthusiast;Mini+Web+Project+Builder"
-    alt="Typing Animation"
-  />
-</h1>
+## About Me
 
----
+I am an Engineering student with a strong interest in Web Development and Software Engineering. I enjoy building modern, user-focused applications while continuously improving my technical and problem-solving skills.
 
-## 👨‍💻 About Me
-- 🎓 **Student | Self-Taught Developer**
-- 💻 Aspiring **Software Engineer & Full Stack Developer**
-- 🧠 Passionate about **building mini web projects**
-- 🌱 Continuously learning modern web technologies
-- 🎯 Goal: Build real-world applications & contribute to **open source**
+### Current Focus
 
----
+- Building web applications
+- Exploring modern development tools and technologies
+- Strengthening software development fundamentals
 
-## 🛠️ Technical Skills
-<table align="center">
-  <tr>
-    <th>🌐 Frontend</th>
-    <th>💻 Programming Languages</th>
-    <th>⚙️ Tools & Platforms</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=html" /><br>HTML<br><br>
-      <img src="https://skillicons.dev/icons?i=css" /><br>CSS<br><br>
-      <img src="https://skillicons.dev/icons?i=javascript" /><br>JavaScript<br><br>
-      <img src="https://skillicons.dev/icons?i=typescript" /><br>TypeScript
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=javascript" /><br>JavaScript<br><br>
-      <img src="https://skillicons.dev/icons?i=python" /><br>Python<br><br>
-      <img src="https://skillicons.dev/icons?i=c" /><br>C
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=vscode" /><br>VS Code<br><br>
-      <img src="https://skillicons.dev/icons?i=github" /><br>GitHub<br><br>
-      <img src="https://skillicons.dev/icons?i=netlify" /><br>Netlify
-    </td>
-  </tr>
-</table>
 
----
+## 📬 Connect with Me
 
-## 🚀 What I’m Working On
-- 🔹 Mini web applications for learning & practice  
-- 🔹 Improving problem-solving & coding skills  
-- 🔹 Exploring full-stack development concepts  
+<div align="center">
 
----
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/withALIF)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/withalif_2025)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alifbrur16@gmail.com)
 
-## 🌐 Connect With Me
+</div>
+
+
+# Tech Stack
+
+<div align="center">
+
+### 🎨 Frontend Development
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+
+### ⚙️ Backend & Database
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+### ☁️ Deployment & Hosting
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+### 💻 Programming Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+</div>
+
+
+# 📊 GitHub Stats:
 <p align="center">
-  <a href="https://www.linkedin.com/in/with-alif/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://t.me/ALIF1230" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-  <a href="mailto:alifbrur16@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-  <a href="https://www.facebook.com/withALIF" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-  </a>
-  <a href="https://github.com/With-ALIF" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+ <p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=With-ALIF&theme=github-dark" alt="GitHub Activity Graph" />
 </p>
-
-
----
+<img
+  src="https://streak-stats.demolab.com?user=With-ALIF&theme=dark&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D"
+  height="160"
+/>
 
 <p align="center">
-  <i>“Learn. Build. Improve. Repeat.”</i>
-</p>
+<img src="https://camo.githubusercontent.com/012cb5586fca2110b4f6d03ac064ceabbeecc9fc025c4b37c23c83784e3d7ebf/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d436f6c6f724c6973743d362c31312c3230266865696768743d3132302673656374696f6e3d666f6f74657226616e696d6174696f6e3d7477696e6b6c696e67" />

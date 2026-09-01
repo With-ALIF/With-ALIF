@@ -34,6 +34,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
 | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
 | | ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | | |
+| | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | | |
 | | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) | | |
 
 </div>
@@ -46,7 +47,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <a href="https://github.com/With-ALIF">
-    <img src="https://github-readme-stats.shion.dev/api?username=With-ALIF&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&include_all_commits=true&count_private=true&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />
+    <img src="https://github-readme-stats.shion.dev/api?username=With-ALIF&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />
   </a>
   <a href="https://github.com/With-ALIF">
     <img src="https://streak-stats.demolab.com/?user=With-ALIF&theme=github_dark&hide_border=false&border_radius=8" alt="GitHub Streak" width="49%" />
@@ -55,7 +56,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <a href="https://github.com/With-ALIF">
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=With-ALIF&layout=compact&theme=github_dark&hide_border=false&border_radius=8" alt="Top Languages" width="60%" />
+    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=With-ALIF&layout=compact&theme=github_dark&hide_border=false&border_radius=8&langs_count=10&hide=nix" alt="Top Languages" width="60%" />
   </a>
 </p>
 
@@ -69,9 +70,9 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 ## Contribution Activity Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake Animation" src="./dist/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
 ## Latest Active Projects
@@ -91,6 +92,15 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   </a>
   <a href="https://github.com/With-ALIF/alif_protfolio">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=alif_protfolio&theme=github_dark&hide_border=false&border_radius=8" alt="alif_protfolio" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/With-ALIF/esp32-pathguard">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=esp32-pathguard&theme=github_dark&hide_border=false&border_radius=8" alt="esp32-pathguard" width="49%" />
+  </a>
+  <a href="https://github.com/With-ALIF/TicTacToe-Ultimate">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=TicTacToe-Ultimate&theme=github_dark&hide_border=false&border_radius=8" alt="TicTacToe-Ultimate" width="49%" />
   </a>
 </p>
 

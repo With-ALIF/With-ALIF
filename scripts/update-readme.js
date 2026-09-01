@@ -46,8 +46,8 @@ async function run() {
     // 1. Fetch user public profile information
     const user = await fetchGitHub(`users/${USERNAME}`);
     
-    // 2. Fetch user's public repositories (up to 100 per page for accurate calculation)
-    const repos = await fetchGitHub(`users/${USERNAME}/repos?per_page=100&type=owner&sort=pushed`);
+    // 2. Fetch user's public repositories (sorted by created date descending)
+    const repos = await fetchGitHub(`users/${USERNAME}/repos?per_page=100&type=owner&sort=created&direction=desc`);
 
     // Calculate stats
     const totalStars = repos.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
@@ -56,10 +56,11 @@ async function run() {
     const followers = user.followers || 0;
     const following = user.following || 0;
 
-    // 3. Filter top 4 latest updated non-fork project repositories
+    // 3. Filter top 6 newest created public, non-fork project repositories
     const recentRepos = repos
-      .filter(repo => !repo.fork && !repo.archived && repo.name.toLowerCase() !== USERNAME.toLowerCase())
-      .slice(0, 4);
+      .filter(repo => !repo.private && !repo.fork && !repo.archived && repo.name.toLowerCase() !== USERNAME.toLowerCase())
+      .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+      .slice(0, 6);
 
     // 4. Generate dynamic markdown content
     const now = new Date();
@@ -74,7 +75,7 @@ async function run() {
     dynamicContent += `\n## GitHub Stats\n\n`;
     dynamicContent += `<p align="center">\n`;
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
-    dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api?username=${USERNAME}&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&include_all_commits=true&count_private=true&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />\n`;
+    dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api?username=${USERNAME}&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />\n`;
     dynamicContent += `  </a>\n`;
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
     dynamicContent += `    <img src="https://streak-stats.demolab.com/?user=${USERNAME}&theme=github_dark&hide_border=false&border_radius=8" alt="GitHub Streak" width="49%" />\n`;
@@ -83,7 +84,7 @@ async function run() {
 
     dynamicContent += `<p align="center">\n`;
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
-    dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=${USERNAME}&layout=compact&theme=github_dark&hide_border=false&border_radius=8" alt="Top Languages" width="60%" />\n`;
+    dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=${USERNAME}&layout=compact&theme=github_dark&hide_border=false&border_radius=8&langs_count=10&hide=nix" alt="Top Languages" width="60%" />\n`;
     dynamicContent += `  </a>\n`;
     dynamicContent += `</p>\n\n`;
 
@@ -96,9 +97,9 @@ async function run() {
 
     dynamicContent += `## Contribution Activity Snake\n\n`;
     dynamicContent += `<picture>\n`;
-    dynamicContent += `  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">\n`;
-    dynamicContent += `  <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg">\n`;
-    dynamicContent += `  <img alt="GitHub Contribution Snake Animation" src="./dist/github-contribution-grid-snake.svg" width="100%">\n`;
+    dynamicContent += `  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake-dark.svg">\n`;
+    dynamicContent += `  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake.svg">\n`;
+    dynamicContent += `  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake.svg" width="100%">\n`;
     dynamicContent += `</picture>\n\n`;
 
     dynamicContent += `## Latest Active Projects\n\n`;

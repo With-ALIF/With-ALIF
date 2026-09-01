@@ -1,0 +1,76 @@
+name: "Update Profile README and Stats"
+
+on:
+  schedule:
+    # Runs everyday at 00:00 BST (GMT+6 / বাংলাদেশ সময় রাত ১২:০০ টা) -> 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+# Minimum required permissions
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Contribution Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Update Dynamic README Section
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-readme.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected. Preparing random commit message..."
+            
+            MESSAGES=(
+              "Update Profile"
+              "Refresh README"
+              "Sync Profile"
+              "Update Stats"
+              "Refresh Stats"
+              "Sync README"
+              "Profile Updated"
+              "Stats Refreshed"
+              "README Synced"
+              "Profile Refresh"
+              "Refresh Profile"
+              "Activity Synced"
+              "Update Activity"
+            )
+            
+            RANDOM_MSG="${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}"
+            echo "Selected commit message: $RANDOM_MSG"
+
+            git add -A
+            git commit -m "$RANDOM_MSG"
+            git push
+            echo "Successfully updated and pushed changes!"
+          else
+            echo "No changes detected. Skipping commit and push."
+          fi

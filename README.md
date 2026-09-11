@@ -65,7 +65,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Stars-4-yellow?style=for-the-badge&logo=star&logoColor=black" alt="Total Stars" />
-  <img src="https://img.shields.io/badge/Public%20Repos-33-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Public%20Repos-34-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
   <img src="https://img.shields.io/badge/Followers-11-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   <img src="https://img.shields.io/badge/Following-7-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
@@ -87,6 +87,12 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 </p>
 
 ## Latest Active Projects
+
+<p align="center">
+  <a href="https://github.com/With-ALIF/problem-solving-hub">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=problem-solving-hub&theme=github_dark&hide_border=false&border_radius=8" alt="problem-solving-hub" width="49%" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/With-ALIF/localmart">
@@ -115,12 +121,6 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 <p align="center">
   <a href="https://github.com/With-ALIF/Smart-CGPA-Calculator">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Smart-CGPA-Calculator&theme=github_dark&hide_border=false&border_radius=8" alt="Smart-CGPA-Calculator" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/Web_Poll">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Web_Poll&theme=github_dark&hide_border=false&border_radius=8" alt="Web_Poll" width="49%" />
   </a>
 </p>
 

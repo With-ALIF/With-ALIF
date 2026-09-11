@@ -77,6 +77,8 @@ async function run() {
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
     dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api?username=${USERNAME}&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />\n`;
     dynamicContent += `  </a>\n`;
+    dynamicContent += `</p>\n\n`;
+    dynamicContent += `<p align="center">\n`;
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
     dynamicContent += `    <img src="https://streak-stats.demolab.com/?user=${USERNAME}&theme=github_dark&hide_border=false&border_radius=8" alt="GitHub Streak" width="49%" />\n`;
     dynamicContent += `  </a>\n`;
@@ -102,24 +104,21 @@ async function run() {
     dynamicContent += `  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake.svg" width="100%">\n`;
     dynamicContent += `</picture>\n\n`;
 
+    dynamicContent += `## Activity Graph\n\n`;
+    dynamicContent += `<p align="center">\n`;
+    dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
+    dynamicContent += `    <img src="https://github-readme-activity-graph-ashen-two.vercel.app/graph?username=${USERNAME}&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true" alt="Activity Graph" width="100%" />\n`;
+    dynamicContent += `  </a>\n`;
+    dynamicContent += `</p>\n\n`;
+
     dynamicContent += `## Latest Active Projects\n\n`;
 
     if (recentRepos.length > 0) {
-      for (let i = 0; i < recentRepos.length; i += 2) {
-        const repo1 = recentRepos[i];
-        const repo2 = recentRepos[i + 1];
-
+      for (const repo of recentRepos) {
         dynamicContent += `<p align="center">\n`;
-        dynamicContent += `  <a href="${repo1.html_url}">\n`;
-        dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repo1.name}&theme=github_dark&hide_border=false&border_radius=8" alt="${repo1.name}" width="49%" />\n`;
+        dynamicContent += `  <a href="${repo.html_url}">\n`;
+        dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repo.name}&theme=github_dark&hide_border=false&border_radius=8" alt="${repo.name}" width="49%" />\n`;
         dynamicContent += `  </a>\n`;
-
-        if (repo2) {
-          dynamicContent += `  <a href="${repo2.html_url}">\n`;
-          dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repo2.name}&theme=github_dark&hide_border=false&border_radius=8" alt="${repo2.name}" width="49%" />\n`;
-          dynamicContent += `  </a>\n`;
-        }
-
         dynamicContent += `</p>\n\n`;
       }
     } else {

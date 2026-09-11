@@ -49,6 +49,9 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <a href="https://github.com/With-ALIF">
     <img src="https://github-readme-stats.shion.dev/api?username=With-ALIF&show_icons=true&theme=github_dark&hide_border=false&border_radius=8&custom_title=ALIF's%20GitHub%20Stats" alt="ALIF's GitHub Stats" width="49%" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/With-ALIF">
     <img src="https://streak-stats.demolab.com/?user=With-ALIF&theme=github_dark&hide_border=false&border_radius=8" alt="GitHub Streak" width="49%" />
   </a>
@@ -63,8 +66,8 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Stars-4-yellow?style=for-the-badge&logo=star&logoColor=black" alt="Total Stars" />
   <img src="https://img.shields.io/badge/Public%20Repos-33-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/Followers-10-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
-  <img src="https://img.shields.io/badge/Following-6-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
+  <img src="https://img.shields.io/badge/Followers-11-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Following-7-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
 
 ## Contribution Activity Snake
@@ -75,12 +78,23 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
+## Activity Graph
+
+<p align="center">
+  <a href="https://github.com/With-ALIF">
+    <img src="https://github-readme-activity-graph-ashen-two.vercel.app/graph?username=With-ALIF&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true" alt="Activity Graph" width="100%" />
+  </a>
+</p>
+
 ## Latest Active Projects
 
 <p align="center">
   <a href="https://github.com/With-ALIF/localmart">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=localmart&theme=github_dark&hide_border=false&border_radius=8" alt="localmart" width="49%" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/With-ALIF/money-mate">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=money-mate&theme=github_dark&hide_border=false&border_radius=8" alt="money-mate" width="49%" />
   </a>
@@ -90,6 +104,9 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <a href="https://github.com/With-ALIF/esp32-pathguard">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=esp32-pathguard&theme=github_dark&hide_border=false&border_radius=8" alt="esp32-pathguard" width="49%" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/With-ALIF/mcq-parser">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=mcq-parser&theme=github_dark&hide_border=false&border_radius=8" alt="mcq-parser" width="49%" />
   </a>
@@ -99,6 +116,9 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <a href="https://github.com/With-ALIF/Smart-CGPA-Calculator">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Smart-CGPA-Calculator&theme=github_dark&hide_border=false&border_radius=8" alt="Smart-CGPA-Calculator" width="49%" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/With-ALIF/Web_Poll">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Web_Poll&theme=github_dark&hide_border=false&border_radius=8" alt="Web_Poll" width="49%" />
   </a>

@@ -70,6 +70,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <img src="https://img.shields.io/badge/Following-7-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
 
+<!--
 ## Contribution Activity Snake
 
 <picture>
@@ -77,6 +78,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake.svg">
   <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/With-ALIF/With-ALIF/main/dist/github-contribution-grid-snake.svg" width="100%">
 </picture>
+-->
 
 ## Activity Graph
 

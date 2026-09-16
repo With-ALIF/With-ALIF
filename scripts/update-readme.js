@@ -97,12 +97,14 @@ async function run() {
     dynamicContent += `  <img src="https://img.shields.io/badge/Following-${following}-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />\n`;
     dynamicContent += `</p>\n\n`;
 
+    dynamicContent += `<!--\n`;
     dynamicContent += `## Contribution Activity Snake\n\n`;
     dynamicContent += `<picture>\n`;
     dynamicContent += `  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake-dark.svg">\n`;
     dynamicContent += `  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake.svg">\n`;
     dynamicContent += `  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/dist/github-contribution-grid-snake.svg" width="100%">\n`;
-    dynamicContent += `</picture>\n\n`;
+    dynamicContent += `</picture>\n`;
+    dynamicContent += `-->\n\n`;
 
     dynamicContent += `## Activity Graph\n\n`;
     dynamicContent += `<p align="center">\n`;

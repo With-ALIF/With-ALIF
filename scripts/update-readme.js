@@ -109,7 +109,7 @@ async function run() {
     dynamicContent += `## Activity Graph\n\n`;
     dynamicContent += `<p align="center">\n`;
     dynamicContent += `  <a href="https://github.com/${USERNAME}">\n`;
-    dynamicContent += `    <img src="https://github-readme-activity-graph-ashen-two.vercel.app/graph?username=${USERNAME}&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true" alt="Activity Graph" width="100%" />\n`;
+    dynamicContent += `    <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=${USERNAME}&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true" alt="Activity Graph" width="100%" />\n`;
     dynamicContent += `  </a>\n`;
     dynamicContent += `</p>\n\n`;
 

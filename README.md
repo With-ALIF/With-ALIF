@@ -84,7 +84,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <a href="https://github.com/With-ALIF">
-    <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=With-ALIF&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true" alt="Activity Graph" width="100%" />
+    <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=With-ALIF&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true&cache_bust=1790780437094" alt="Activity Graph" width="100%" />
   </a>
 </p>
 
@@ -125,5 +125,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=money-mate&theme=github_dark&hide_border=false&border_radius=8" alt="money-mate" width="49%" />
   </a>
 </p>
+
+<p align="center"><sub>🕒 Last updated: Wednesday, September 30, 2026 at 9:00:37 PM (GMT+6)</sub></p>
 
 <!-- END_UPDATE -->

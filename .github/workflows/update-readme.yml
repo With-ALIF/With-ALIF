@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # Runs everyday at 00:00 BST (GMT+6 / বাংলাদেশ সময় রাত ১২:০০ টা) -> 18:00 UTC
-    - cron: "0 18 * * *"
+    # Runs every 2 hours to keep stats and graphs fresh
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 # Minimum required permissions

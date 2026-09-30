@@ -129,8 +129,6 @@ async function run() {
       dynamicContent += `*No active public repositories found.*\n\n`;
     }
 
-    dynamicContent += `<p align="center"><sub>🕒 Last updated: ${formattedDate}</sub></p>\n\n`;
-
     dynamicContent += `<!-- END_UPDATE -->`;
 
     // 5. Read and safely replace content in README.md

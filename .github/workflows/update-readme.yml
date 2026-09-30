@@ -1,9 +1,6 @@
 name: "Update Profile README and Stats"
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     # Runs every 2 hours to keep stats and graphs fresh
     - cron: "0 */2 * * *"

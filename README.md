@@ -126,6 +126,4 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   </a>
 </p>
 
-<p align="center"><sub>🕒 Last updated: Wednesday, September 30, 2026 at 9:24:33 PM (GMT+6)</sub></p>
-
 <!-- END_UPDATE -->

@@ -84,7 +84,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <a href="https://github.com/With-ALIF">
-    <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=With-ALIF&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true&cache_bust=1790816288945" alt="Activity Graph" width="100%" />
+    <img src="https://github-readme-activity-graph-delta.vercel.app/graph?username=With-ALIF&bg_color=0d1117&color=00ff41&line=2ea043&point=00ff41&area=true&area_color=00ff41&hide_border=true&custom_title=ALIF's%20Contribution%20Graph&title_color=00ff41" alt="Activity Graph" width="100%" />
   </a>
 </p>
 

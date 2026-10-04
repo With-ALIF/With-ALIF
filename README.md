@@ -91,8 +91,8 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 ## Latest Active Projects
 
 <p align="center">
-  <a href="https://github.com/With-ALIF/alif-protfolio-0.2">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=alif-protfolio-0.2&theme=github_dark&hide_border=false&border_radius=8" alt="alif-protfolio-0.2" width="49%" />
+  <a href="https://github.com/With-ALIF/alif-protfolio">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=alif-protfolio&theme=github_dark&hide_border=false&border_radius=8" alt="alif-protfolio" width="49%" />
   </a>
 </p>
 

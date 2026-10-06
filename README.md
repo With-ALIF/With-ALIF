@@ -65,7 +65,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Stars-5-yellow?style=for-the-badge&logo=star&logoColor=black" alt="Total Stars" />
-  <img src="https://img.shields.io/badge/Public%20Repos-35-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Public%20Repos-36-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
   <img src="https://img.shields.io/badge/Followers-12-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   <img src="https://img.shields.io/badge/Following-7-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
@@ -89,6 +89,12 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 </p>
 
 ## Latest Active Projects
+
+<p align="center">
+  <a href="https://github.com/With-ALIF/abdullah-al-khalid">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=abdullah-al-khalid&theme=github_dark&hide_border=false&border_radius=8" alt="abdullah-al-khalid" width="49%" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/With-ALIF/alif-protfolio">
@@ -117,12 +123,6 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 <p align="center">
   <a href="https://github.com/With-ALIF/localmart">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=localmart&theme=github_dark&hide_border=false&border_radius=8" alt="localmart" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/money-mate">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=money-mate&theme=github_dark&hide_border=false&border_radius=8" alt="money-mate" width="49%" />
   </a>
 </p>
 

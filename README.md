@@ -66,7 +66,7 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Stars-5-yellow?style=for-the-badge&logo=star&logoColor=black" alt="Total Stars" />
   <img src="https://img.shields.io/badge/Public%20Repos-38-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/Followers-12-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Followers-13-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   <img src="https://img.shields.io/badge/Following-7-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
 

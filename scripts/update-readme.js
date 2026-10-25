@@ -113,6 +113,7 @@ async function run() {
     dynamicContent += `  </a>\n`;
     dynamicContent += `</p>\n\n`;
 
+    dynamicContent += `<!--\n`;
     dynamicContent += `## Latest Active Projects\n\n`;
 
     if (recentRepos.length > 0) {
@@ -126,6 +127,7 @@ async function run() {
     } else {
       dynamicContent += `*No active public repositories found.*\n\n`;
     }
+    dynamicContent += `-->\n\n`;
 
     dynamicContent += `<!-- END_UPDATE -->`;
 

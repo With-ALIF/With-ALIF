@@ -79,8 +79,8 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Stars-6-yellow?style=for-the-badge&logo=star&logoColor=black" alt="Total Stars" />
-  <img src="https://img.shields.io/badge/Public%20Repos-40-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
-  <img src="https://img.shields.io/badge/Followers-13-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
+  <img src="https://img.shields.io/badge/Public%20Repos-41-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Followers-12-green?style=for-the-badge&logo=github&logoColor=white" alt="Followers" />
   <img src="https://img.shields.io/badge/Following-8-purple?style=for-the-badge&logo=github&logoColor=white" alt="Following" />
 </p>
 
@@ -104,6 +104,12 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 
 <!--
 ## Latest Active Projects
+
+<p align="center">
+  <a href="https://github.com/With-ALIF/Post-Automation-Bot">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Post-Automation-Bot&theme=github_dark&hide_border=false&border_radius=8" alt="Post-Automation-Bot" width="49%" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/With-ALIF/telegram-auto-publisher">
@@ -132,12 +138,6 @@ I am an Engineering student with a strong interest in Web Development and Softwa
 <p align="center">
   <a href="https://github.com/With-ALIF/aap-pathsala-qb">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=aap-pathsala-qb&theme=github_dark&hide_border=false&border_radius=8" alt="aap-pathsala-qb" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/alif-protfolio">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=alif-protfolio&theme=github_dark&hide_border=false&border_radius=8" alt="alif-protfolio" width="49%" />
   </a>
 </p>
 

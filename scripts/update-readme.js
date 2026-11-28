@@ -1,12 +1,6 @@
-/**
- * Automated GitHub Profile README Updater
- * Zero dependencies - Runs on Node.js 18+ native fetch
- */
-
 const fs = require('fs');
 const path = require('path');
 
-// Configuration: uses GH_USERNAME env, or process.env.GITHUB_REPOSITORY_OWNER, or fallback
 const USERNAME = process.env.GH_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || 'With-ALIF';
 const TOKEN = process.env.GITHUB_TOKEN || '';
 
@@ -14,9 +8,6 @@ const README_PATH = path.join(__dirname, '..', 'README.md');
 const START_MARKER = '<!-- START_UPDATE -->';
 const END_MARKER = '<!-- END_UPDATE -->';
 
-/**
- * Fetch helper with GitHub Authorization header
- */
 async function fetchGitHub(endpoint) {
   const headers = {
     'Accept': 'application/vnd.github.v3+json',
@@ -43,26 +34,16 @@ async function run() {
   console.log(`[+] Updating README for user: ${USERNAME}`);
 
   try {
-    // 1. Fetch user public profile information
     const user = await fetchGitHub(`users/${USERNAME}`);
     
-    // 2. Fetch user's public repositories (sorted by created date descending)
     const repos = await fetchGitHub(`users/${USERNAME}/repos?per_page=100&type=owner&sort=created&direction=desc`);
 
-    // Calculate stats
     const totalStars = repos.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
     const totalForks = repos.reduce((acc, repo) => acc + (repo.forks_count || 0), 0);
     const totalRepos = user.public_repos || repos.length;
     const followers = user.followers || 0;
     const following = user.following || 0;
 
-    // 3. Filter top 6 newest created public, non-fork project repositories
-    const recentRepos = repos
-      .filter(repo => !repo.private && !repo.fork && !repo.archived && repo.name.toLowerCase() !== USERNAME.toLowerCase())
-      .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
-      .slice(0, 6);
-
-    // 4. Generate dynamic markdown content
     const now = new Date();
     const formattedDate = now.toLocaleString('en-US', {
       timeZone: 'Asia/Dhaka',
@@ -113,25 +94,8 @@ async function run() {
     dynamicContent += `  </a>\n`;
     dynamicContent += `</p>\n\n`;
 
-    dynamicContent += `<!--\n`;
-    dynamicContent += `## Latest Active Projects\n\n`;
-
-    if (recentRepos.length > 0) {
-      for (const repo of recentRepos) {
-        dynamicContent += `<p align="center">\n`;
-        dynamicContent += `  <a href="${repo.html_url}">\n`;
-        dynamicContent += `    <img src="https://github-readme-stats.shion.dev/api/pin/?username=${USERNAME}&repo=${repo.name}&theme=github_dark&hide_border=false&border_radius=8" alt="${repo.name}" width="49%" />\n`;
-        dynamicContent += `  </a>\n`;
-        dynamicContent += `</p>\n\n`;
-      }
-    } else {
-      dynamicContent += `*No active public repositories found.*\n\n`;
-    }
-    dynamicContent += `-->\n\n`;
-
     dynamicContent += `<!-- END_UPDATE -->`;
 
-    // 5. Read and safely replace content in README.md
     if (!fs.existsSync(README_PATH)) {
       console.warn(`[!] README.md not found at ${README_PATH}.`);
       return;
@@ -144,17 +108,14 @@ async function run() {
     const endIndex = currentReadme.indexOf(END_MARKER);
 
     if (startIndex !== -1 && endIndex !== -1 && endIndex >= startIndex) {
-      // Marker exists: Safely replace ONLY inside markers
       const beforeContent = currentReadme.substring(0, startIndex);
       const afterContent = currentReadme.substring(endIndex + END_MARKER.length);
       updatedReadme = beforeContent + dynamicContent.trim() + afterContent;
     } else {
-      // Markers missing: Append safely at bottom without destroying existing content
       console.log(`[!] Markers not found. Appending dynamic section at the end.`);
       updatedReadme = currentReadme.trim() + `\n\n` + dynamicContent.trim() + `\n`;
     }
 
-    // Write updated content to README
     fs.writeFileSync(README_PATH, updatedReadme, 'utf-8');
     console.log(`[✓] README.md dynamic section updated successfully!`);
 

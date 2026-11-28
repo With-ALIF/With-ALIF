@@ -102,45 +102,4 @@ I am an Engineering student with a strong interest in Web Development and Softwa
   </a>
 </p>
 
-<!--
-## Latest Active Projects
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/gaming-hub">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=gaming-hub&theme=github_dark&hide_border=false&border_radius=8" alt="gaming-hub" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/Post-Automation-Bot">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=Post-Automation-Bot&theme=github_dark&hide_border=false&border_radius=8" alt="Post-Automation-Bot" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/telegram-auto-publisher">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=telegram-auto-publisher&theme=github_dark&hide_border=false&border_radius=8" alt="telegram-auto-publisher" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/question-hub">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=question-hub&theme=github_dark&hide_border=false&border_radius=8" alt="question-hub" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/TenderPack">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=TenderPack&theme=github_dark&hide_border=false&border_radius=8" alt="TenderPack" width="49%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/With-ALIF/aap-pathsala-qb">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=With-ALIF&repo=aap-pathsala-qb&theme=github_dark&hide_border=false&border_radius=8" alt="aap-pathsala-qb" width="49%" />
-  </a>
-</p>
-
--->
-
 <!-- END_UPDATE -->
